@@ -1,0 +1,19 @@
+{
+  "name": "minecraft-bot",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": "18.x.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.mjs"
+  },
+  "author": "Omar Crespo <crespomerchano@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^13.7.0",
+    "dotenv": "^16.0.1",
+    "node-fetch": "^3.2.4"
+  }
+}
